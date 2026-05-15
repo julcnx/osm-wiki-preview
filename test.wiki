@@ -1,0 +1,35 @@
+== Test Page ==
+
+This is a '''test page''' for the OSM Wiki Preview extension.
+
+=== Text Formatting ===
+
+* '''Bold text'''
+* ''Italic text''
+* <code>inline code</code>
+* [[Internal link]]
+* [https://www.openstreetmap.org External link]
+
+=== Table ===
+
+{| class="wikitable"
+! Key !! Value !! Description
+|-
+| <code>highway</code> || <code>residential</code> || A road in a residential area
+|-
+| <code>surface</code> || <code>asphalt</code> || Paved with asphalt
+|-
+| <code>maxspeed</code> || <code>50</code> || Speed limit in km/h
+|}
+
+=== Tags ===
+
+Common OSM tags used for roads:
+
+; {{Tag|highway|primary}} : A major road, not a motorway
+; {{Tag|highway|secondary}} : A road linking large towns
+; {{Tag|highway|path}} : A generic path for pedestrians or cyclists
+
+=== Note ===
+
+{{note|This file is used to test the Wiki Preview VS Code extension.}}
