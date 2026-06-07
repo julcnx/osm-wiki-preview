@@ -126,10 +126,13 @@ function wrapHtml(content: string): string {
       font-family: Linux Libertine, Georgia, Times, serif;
     }
     a { color: #3366cc; }
+    .mw-editsection { display: none; }
+    .vector-body { font-size: 0.875rem; font-size: calc(1em * 0.875); line-height: 1.6; }
+    .vector-body p { margin: 0.5em 0; }
   </style>
 </head>
-<body class="mediawiki ltr sitedir-ltr">
-${content}
+<body class="skin-vector-legacy mediawiki skin-vector action-view ltr sitedir-ltr mw-hide-empty-elt">
+<div class="vector-body">${content}</div>
 </body>
 </html>`;
 }
